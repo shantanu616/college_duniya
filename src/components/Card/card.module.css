@@ -1,0 +1,108 @@
+.card {
+    border: 1px solid #d3d3d3;
+    border-radius: .25rem; 
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+    margin: auto;
+    position: relative;
+  }
+  .text_block {
+    position: absolute;
+    top:0px;
+    height: 100%;
+    background-size: cover;
+    /* background-color: grey; */
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+    width: 100%;
+  }
+  .bg_img {
+    background-size: cover;
+    min-height: 180px;
+    background-position: center;
+    background-color: #ccc;
+    position: relative;
+    
+  }
+  
+  .content {
+    margin:8px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+  }
+  .title{
+    color: rgb(56, 38, 38); 
+    font-weight: 300;
+    font-size: 1.563rem;
+  }
+  p{
+    font-size: 0.813rem;
+  }
+  span{
+    font-size: 13px;
+    color: rgb(121, 112, 112);
+  }
+  .match{
+    color: rgb(25, 174, 194);
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+  .price{
+    font-size:2rem;
+    font-weight: 700;
+    color: red;
+  }
+  .is_promoted{
+    position:absolute;
+    right:0;
+    top:-0px;
+  }
+  .fees_cycle{
+    font-size: 0.75rem;
+    color: rgb(112, 104, 104);
+  }
+  .bottom_div{
+    bottom:0;
+    position:absolute;
+    width: 100%;
+  }
+  .floating_tag{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0.65rem;
+  }
+  .tags{
+    margin-top:20px;
+  }
+  .tags>*{
+    background-color: white;
+    border-radius: 50px;
+    margin: 0.625rem;
+    height:5rem;
+    padding: 0.625rem;
+    border-color: 1px solid black;
+  }
+  .ranking{
+    color: white;
+    font-size: 0.938rem;
+  }
+  .card_bottom{
+    display: flex;
+    margin:10px 0px 10px 0px;
+    justify-content: space-between;
+    
+  }
+  .offertext{
+    background-color:rgb(172, 233, 241);
+    padding:5px;
+   border-top-right-radius: 50px;
+   border-bottom-right-radius: 50px;
+   font-size: 0.85rem;
+   font-weight:200;
+  }
+  .amenties{
+    color: rgb(25, 174, 194);
+    margin-right: 10px;
+    font-size: 0.938rem;
+  }
